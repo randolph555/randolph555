@@ -1,0 +1,44 @@
+<svg width="980" height="258" viewBox="0 0 980 258" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="terminal-border" x1="0" y1="0" x2="980" y2="258" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.48" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#FACC15"/>
+    </linearGradient>
+    <filter id="terminal-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.74 0 0 0 0 0.97 0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <style>
+      .mono { font-family: JetBrains Mono, SFMono-Regular, Menlo, Consolas, monospace; }
+      .line { fill: #DDEAFE; font-size: 17px; font-weight: 700; }
+      .muted { fill: #64748B; font-size: 14px; font-weight: 700; }
+      .accent { fill: #38BDF8; }
+      .gold { fill: #FACC15; }
+      .violet { fill: #A78BFA; }
+      .blink { animation: blink 1s steps(2, start) infinite; }
+      .scan { animation: scan 4.8s ease-in-out infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes scan {
+        0%, 100% { transform: translateX(0); opacity: 0.22; }
+        50% { transform: translateX(740px); opacity: 0.58; }
+      }
+    </style>
+  </defs>
+  <rect x="2" y="2" width="976" height="254" rx="24" fill="#080C16" stroke="url(#terminal-border)" stroke-width="2"/>
+  <rect x="20" y="20" width="940" height="218" rx="18" fill="#0D1117" stroke="#263247"/>
+  <rect x="20" y="20" width="940" height="44" rx="18" fill="#111827"/>
+  <circle cx="48" cy="42" r="7" fill="#EF4444"/>
+  <circle cx="72" cy="42" r="7" fill="#F59E0B"/>
+  <circle cx="96" cy="42" r="7" fill="#22C55E"/>
+  <text x="128" y="47" class="mono muted">randolph555 / command-center</text>
+  <rect x="36" y="80" width="4" height="132" rx="2" fill="url(#terminal-border)" filter="url(#terminal-glow)"/>
+  <g class="mono">
+    <text x="58" y="104" class="line"><tspan class="accent">$</tspan> init --profile randolph555 --mode quiet-power</text>
+    <text x="58" y="138" class="line"><tspan class="violet">signal</tspan> low noise  |  high leverage  |  sharp interfaces</text>
+    <text x="58" y="172" class="line"><tspan class="gold">rule</tspan>   make it work  ->  make it sharp  ->  make it disappear</text>
+    <text x="58" y="206" class="line"><tspan class="accent">status</tspan> building systems that do not need to introduce themselves <tspan class="blink">_</tspan></text>
+  </g>
+  <rect x="164" y="232" width="76" height="2" fill="#38BDF8" class="scan"/>
+</svg>
