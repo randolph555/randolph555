@@ -1,79 +1,80 @@
-<svg width="980" height="360" viewBox="0 0 980 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="980" height="390" viewBox="0 0 980 390" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="border" x1="0" y1="0" x2="980" y2="360" gradientUnits="userSpaceOnUse">
+    <linearGradient id="border" x1="0" y1="0" x2="980" y2="390" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
       <stop offset="0.52" stop-color="#A78BFA"/>
       <stop offset="1" stop-color="#FACC15"/>
     </linearGradient>
-    <linearGradient id="area" x1="0" y1="170" x2="0" y2="304" gradientUnits="userSpaceOnUse">
+    <linearGradient id="area" x1="0" y1="210" x2="0" y2="324" gradientUnits="userSpaceOnUse">
       <stop stop-color="#A78BFA" stop-opacity="0.78"/>
       <stop offset="1" stop-color="#38BDF8" stop-opacity="0.06"/>
     </linearGradient>
     <style>
-      .h { font-family: Inter, ui-sans-serif, system-ui; fill: #F8FAFC; font-size: 27px; font-weight: 900; }
+      .h { font-family: Inter, ui-sans-serif, system-ui; fill: #F8FAFC; font-size: 26px; font-weight: 900; }
       .k { font-family: JetBrains Mono, SFMono-Regular, Menlo, Consolas, monospace; fill: #94A3B8; font-size: 12px; font-weight: 800; }
-      .v { font-family: Inter, ui-sans-serif, system-ui; fill: #7DD3FC; font-size: 30px; font-weight: 900; }
+      .v { font-family: Inter, ui-sans-serif, system-ui; fill: #7DD3FC; font-size: 28px; font-weight: 900; }
       .s { font-family: Inter, ui-sans-serif, system-ui; fill: #CBD5E1; font-size: 14px; font-weight: 700; }
       .axis { stroke: #263247; stroke-width: 1; }
     </style>
   </defs>
 
-  <rect x="1.5" y="1.5" width="977" height="357" rx="26" fill="#0D1117" stroke="url(#border)" stroke-width="3"/>
-  <text x="42" y="54" class="h">GitHub Pulse</text>
-  <text x="756" y="52" class="k">LOW NOISE / HIGH LEVERAGE</text>
+  <rect x="1.5" y="1.5" width="977" height="387" rx="26" fill="#0D1117" stroke="url(#border)" stroke-width="3"/>
+  <text x="42" y="52" class="h">GitHub Pulse</text>
+  <text x="744" y="50" class="k">LOW NOISE / HIGH LEVERAGE</text>
 
   <g opacity="0.18" stroke="#E5E7EB">
-    <path d="M40 80H940"/>
-    <path d="M40 156H940"/>
-    <path d="M40 304H940"/>
-    <path d="M265 80V156"/>
-    <path d="M490 80V156"/>
-    <path d="M715 80V156"/>
+    <path d="M40 78H940"/>
+    <path d="M40 152H940"/>
+    <path d="M40 190H940"/>
+    <path d="M40 332H940"/>
+    <path d="M265 78V152"/>
+    <path d="M490 78V152"/>
+    <path d="M715 78V152"/>
   </g>
 
-  <g transform="translate(42 96)">
+  <g transform="translate(42 94)">
     <text x="0" y="0" class="k">PUBLIC REPOS</text>
-    <text x="0" y="39" class="v">36</text>
-    <text x="0" y="62" class="s">small systems and tools</text>
+    <text x="0" y="36" class="v">36</text>
+    <text x="0" y="59" class="s">small systems and tools</text>
   </g>
 
-  <g transform="translate(285 96)">
+  <g transform="translate(285 94)">
     <text x="0" y="0" class="k">CONTRIBUTIONS 2026</text>
-    <text x="0" y="39" class="v">30</text>
-    <text x="0" y="62" class="s">quiet progress, visible trace</text>
+    <text x="0" y="36" class="v">30</text>
+    <text x="0" y="59" class="s">quiet progress, visible trace</text>
   </g>
 
-  <g transform="translate(510 96)">
+  <g transform="translate(510 94)">
     <text x="0" y="0" class="k">PRIMARY SIGNAL</text>
-    <text x="0" y="39" class="v">AI + Automation</text>
-    <text x="0" y="62" class="s">interfaces, agents, workflows</text>
+    <text x="0" y="36" class="v">AI Systems</text>
+    <text x="0" y="59" class="s">automation, agents, workflows</text>
   </g>
 
-  <g transform="translate(735 96)">
+  <g transform="translate(735 94)">
     <text x="0" y="0" class="k">LANGUAGE MIX</text>
     <rect x="0" y="22" width="176" height="12" rx="6" fill="#1F2937"/>
     <rect x="0" y="22" width="104" height="12" rx="6" fill="#FDE047"/>
     <rect x="104" y="22" width="34" height="12" fill="#F97316"/>
     <rect x="138" y="22" width="22" height="12" fill="#38BDF8"/>
     <rect x="160" y="22" width="16" height="12" rx="6" fill="#A78BFA"/>
-    <text x="0" y="62" class="s">JS / HTML / Java / Python</text>
+    <text x="0" y="59" class="s">JS / HTML / Java / Python</text>
   </g>
 
-  <g transform="translate(42 186)">
-    <text x="0" y="-14" class="k">ACTIVITY TRACE</text>
-    <path d="M0 80C58 29 111 110 168 63C226 15 279 84 335 54C397 20 448 73 506 56C567 38 613 82 674 42C735 2 790 95 845 62C888 36 918 44 896 39" stroke="#FACC15" stroke-width="4" stroke-linecap="round"/>
-    <path d="M0 80C58 29 111 110 168 63C226 15 279 84 335 54C397 20 448 73 506 56C567 38 613 82 674 42C735 2 790 95 845 62C888 36 918 44 896 39V118H0V80Z" fill="url(#area)"/>
-    <path d="M0 118H896" class="axis"/>
-    <path d="M0 10V118" class="axis"/>
-    <path d="M224 10V118" class="axis" opacity="0.45"/>
-    <path d="M448 10V118" class="axis" opacity="0.45"/>
-    <path d="M672 10V118" class="axis" opacity="0.45"/>
-    <path d="M896 10V118" class="axis" opacity="0.45"/>
-    <circle cx="168" cy="63" r="5" fill="#38BDF8"/>
-    <circle cx="335" cy="54" r="5" fill="#A78BFA"/>
-    <circle cx="674" cy="42" r="5" fill="#38BDF8"/>
-    <circle cx="845" cy="62" r="5" fill="#FACC15"/>
-    <text x="0" y="147" class="k">activity is a trace, not the destination</text>
-    <text x="742" y="147" class="k">SHIP / LEARN / REPEAT</text>
+  <g transform="translate(42 174)">
+    <text x="0" y="0" class="k">ACTIVITY TRACE</text>
+    <path d="M0 88C58 37 111 118 168 71C226 23 279 92 335 62C397 28 448 81 506 64C567 46 613 90 674 50C735 10 790 103 845 70C888 44 918 52 896 47" stroke="#FACC15" stroke-width="4" stroke-linecap="round"/>
+    <path d="M0 88C58 37 111 118 168 71C226 23 279 92 335 62C397 28 448 81 506 64C567 46 613 90 674 50C735 10 790 103 845 70C888 44 918 52 896 47V126H0V88Z" fill="url(#area)"/>
+    <path d="M0 126H896" class="axis"/>
+    <path d="M0 18V126" class="axis"/>
+    <path d="M224 18V126" class="axis" opacity="0.45"/>
+    <path d="M448 18V126" class="axis" opacity="0.45"/>
+    <path d="M672 18V126" class="axis" opacity="0.45"/>
+    <path d="M896 18V126" class="axis" opacity="0.45"/>
+    <circle cx="168" cy="71" r="5" fill="#38BDF8"/>
+    <circle cx="335" cy="62" r="5" fill="#A78BFA"/>
+    <circle cx="674" cy="50" r="5" fill="#38BDF8"/>
+    <circle cx="845" cy="70" r="5" fill="#FACC15"/>
+    <text x="0" y="156" class="k">activity is a trace, not the destination</text>
+    <text x="742" y="156" class="k">SHIP / LEARN / REPEAT</text>
   </g>
 </svg>
