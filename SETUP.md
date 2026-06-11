@@ -9,6 +9,7 @@ Steps:
 3. Visit `https://github.com/randolph555`; the README appears at the top of the profile.
 4. Open the repository Actions tab and run `Generate contribution snake` once. After that it refreshes every day.
 5. Run `Generate 3D contribution profile` once as well. This creates the premium 3D contribution scene.
+6. Optional: keep `Daily profile heartbeat` enabled if you want the contribution snake to have regular activity even when you are not pushing code.
 
 Recommended push commands from this directory:
 
@@ -27,3 +28,4 @@ To tune it later:
 - Edit `assets/terminal.svg` to tune the animated terminal panel.
 - Replace the two cards under `Featured Builds` with stronger repos if you want.
 - Add contact links under the badges when you decide what email, blog, or social links to expose.
+- If you dislike automated contribution commits, delete `.github/workflows/heartbeat.yml` and `data/heartbeat.txt`.

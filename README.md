@@ -128,30 +128,7 @@ const randolph555 = {
 ## GitHub Pulse
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=randolph555&theme=tokyonight" alt="Profile summary" width="92%" />
-</div>
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=randolph555&theme=tokyonight" alt="Repos per language" width="100%" />
-    </td>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=randolph555&theme=tokyonight" alt="Most commit language" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=randolph555&theme=tokyonight" alt="Profile stats" width="100%" />
-    </td>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=randolph555&theme=tokyonight&utcOffset=8" alt="Productive time" width="100%" />
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=randolph555&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=7dd3fc&line=facc15&point=a78bfa&area=true&area_color=38bdf8" alt="GitHub activity graph" width="92%" />
+  <img src="./assets/pulse.svg" alt="GitHub pulse dashboard" width="92%" />
 </div>
 
 ## 3D Contribution Scene
