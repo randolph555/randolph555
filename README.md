@@ -54,31 +54,6 @@ const randolph555 = {
   <img src="./assets/highlights.svg" alt="Profile highlights" width="92%" />
 </div>
 
-## Featured Builds
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">sse-client</h3>
-      <p align="center">A focused client for streaming workflows and realtime integrations.</p>
-      <p align="center">
-        <a href="https://github.com/randolph555/sse-client">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=randolph555&repo=sse-client&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=facc15&text_color=e5e7eb" alt="sse-client repo card" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">cloud-frame</h3>
-      <p align="center">Cloud-oriented application structure for fast iteration and deployment.</p>
-      <p align="center">
-        <a href="https://github.com/randolph555/cloud-frame">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=randolph555&repo=cloud-frame&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=facc15&text_color=e5e7eb" alt="cloud-frame repo card" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
-
 ## Notes To Self
 
 <table>
