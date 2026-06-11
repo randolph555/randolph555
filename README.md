@@ -128,7 +128,7 @@ const randolph555 = {
 ## GitHub Pulse
 
 <div align="center">
-  <img src="./assets/pulse.svg" alt="GitHub pulse dashboard" width="92%" />
+  <img src="./assets/pulse.svg" alt="GitHub pulse dashboard" width="100%" />
 </div>
 
 ## 3D Contribution Scene

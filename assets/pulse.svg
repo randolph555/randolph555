@@ -1,78 +1,79 @@
-<svg width="980" height="430" viewBox="0 0 980 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="980" height="360" viewBox="0 0 980 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="border" x1="0" y1="0" x2="980" y2="430" gradientUnits="userSpaceOnUse">
+    <linearGradient id="border" x1="0" y1="0" x2="980" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="0.52" stop-color="#A78BFA"/>
       <stop offset="1" stop-color="#FACC15"/>
     </linearGradient>
-    <linearGradient id="area" x1="0" y1="120" x2="0" y2="330" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#A78BFA" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.08"/>
+    <linearGradient id="area" x1="0" y1="170" x2="0" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.06"/>
     </linearGradient>
     <style>
-      .h { font-family: Inter, ui-sans-serif, system-ui; fill: #F8FAFC; font-size: 28px; font-weight: 900; }
-      .label { font-family: JetBrains Mono, SFMono-Regular, Menlo, Consolas, monospace; fill: #94A3B8; font-size: 13px; font-weight: 700; }
-      .value { font-family: Inter, ui-sans-serif, system-ui; fill: #7DD3FC; font-size: 34px; font-weight: 900; }
-      .small { font-family: Inter, ui-sans-serif, system-ui; fill: #CBD5E1; font-size: 15px; font-weight: 700; }
-      .axis { stroke: #243247; stroke-width: 1; }
+      .h { font-family: Inter, ui-sans-serif, system-ui; fill: #F8FAFC; font-size: 27px; font-weight: 900; }
+      .k { font-family: JetBrains Mono, SFMono-Regular, Menlo, Consolas, monospace; fill: #94A3B8; font-size: 12px; font-weight: 800; }
+      .v { font-family: Inter, ui-sans-serif, system-ui; fill: #7DD3FC; font-size: 30px; font-weight: 900; }
+      .s { font-family: Inter, ui-sans-serif, system-ui; fill: #CBD5E1; font-size: 14px; font-weight: 700; }
+      .axis { stroke: #263247; stroke-width: 1; }
     </style>
   </defs>
 
-  <rect x="1.5" y="1.5" width="977" height="427" rx="28" fill="#0D1117" stroke="url(#border)" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="977" height="357" rx="26" fill="#0D1117" stroke="url(#border)" stroke-width="3"/>
+  <text x="42" y="54" class="h">GitHub Pulse</text>
+  <text x="756" y="52" class="k">LOW NOISE / HIGH LEVERAGE</text>
+
   <g opacity="0.18" stroke="#E5E7EB">
-    <path d="M40 94H940"/>
-    <path d="M40 348H940"/>
-    <path d="M362 94V348"/>
-    <path d="M618 94V348"/>
+    <path d="M40 80H940"/>
+    <path d="M40 156H940"/>
+    <path d="M40 304H940"/>
+    <path d="M265 80V156"/>
+    <path d="M490 80V156"/>
+    <path d="M715 80V156"/>
   </g>
 
-  <text x="48" y="58" class="h">GitHub Pulse</text>
-  <text x="776" y="56" class="label">low noise / high leverage</text>
-
-  <g transform="translate(48 112)">
-    <text x="0" y="26" class="label">PUBLIC REPOS</text>
-    <text x="0" y="70" class="value">36</text>
-    <text x="0" y="102" class="small">small systems, experiments, tools</text>
-
-    <text x="0" y="154" class="label">CONTRIBUTIONS 2026</text>
-    <text x="0" y="198" class="value">30</text>
-    <text x="0" y="230" class="small">quiet progress, visible trace</text>
+  <g transform="translate(42 96)">
+    <text x="0" y="0" class="k">PUBLIC REPOS</text>
+    <text x="0" y="39" class="v">36</text>
+    <text x="0" y="62" class="s">small systems and tools</text>
   </g>
 
-  <g transform="translate(392 112)">
-    <text x="0" y="26" class="label">PRIMARY SIGNAL</text>
-    <text x="0" y="70" class="value">AI + Automation</text>
-    <text x="0" y="102" class="small">interfaces, agents, workflows</text>
-
-    <text x="0" y="154" class="label">OPERATING WINDOW</text>
-    <text x="0" y="198" class="value">UTC +8</text>
-    <text x="0" y="230" class="small">Shanghai build rhythm</text>
+  <g transform="translate(285 96)">
+    <text x="0" y="0" class="k">CONTRIBUTIONS 2026</text>
+    <text x="0" y="39" class="v">30</text>
+    <text x="0" y="62" class="s">quiet progress, visible trace</text>
   </g>
 
-  <g transform="translate(658 112)">
-    <text x="0" y="26" class="label">LANGUAGE MIX</text>
-    <rect x="0" y="49" width="238" height="14" rx="7" fill="#1F2937"/>
-    <rect x="0" y="49" width="140" height="14" rx="7" fill="#FDE047"/>
-    <rect x="140" y="49" width="45" height="14" fill="#F97316"/>
-    <rect x="185" y="49" width="28" height="14" fill="#38BDF8"/>
-    <rect x="213" y="49" width="25" height="14" rx="7" fill="#A78BFA"/>
-    <text x="0" y="100" class="small">JavaScript / HTML / Java / Python</text>
-
-    <text x="0" y="154" class="label">CURRENT MODE</text>
-    <text x="0" y="198" class="value">Building</text>
-    <text x="0" y="230" class="small">make it work, then make it sharp</text>
+  <g transform="translate(510 96)">
+    <text x="0" y="0" class="k">PRIMARY SIGNAL</text>
+    <text x="0" y="39" class="v">AI + Automation</text>
+    <text x="0" y="62" class="s">interfaces, agents, workflows</text>
   </g>
 
-  <g transform="translate(48 278)">
-    <path d="M0 72C57 18 103 113 164 55C222 0 267 80 326 45C390 7 431 66 489 50C554 31 598 82 662 36C729 -13 773 94 828 57C872 27 905 42 884 35" stroke="#FACC15" stroke-width="4" stroke-linecap="round"/>
-    <path d="M0 72C57 18 103 113 164 55C222 0 267 80 326 45C390 7 431 66 489 50C554 31 598 82 662 36C729 -13 773 94 828 57C872 27 905 42 884 35V96H0V72Z" fill="url(#area)"/>
-    <path d="M0 96H884" class="axis"/>
-    <path d="M0 8V96" class="axis"/>
-    <circle cx="164" cy="55" r="5" fill="#38BDF8"/>
-    <circle cx="326" cy="45" r="5" fill="#A78BFA"/>
-    <circle cx="662" cy="36" r="5" fill="#38BDF8"/>
-    <circle cx="828" cy="57" r="5" fill="#FACC15"/>
-    <text x="0" y="128" class="label">activity is a trace, not the destination</text>
-    <text x="678" y="128" class="label">ship / learn / repeat</text>
+  <g transform="translate(735 96)">
+    <text x="0" y="0" class="k">LANGUAGE MIX</text>
+    <rect x="0" y="22" width="176" height="12" rx="6" fill="#1F2937"/>
+    <rect x="0" y="22" width="104" height="12" rx="6" fill="#FDE047"/>
+    <rect x="104" y="22" width="34" height="12" fill="#F97316"/>
+    <rect x="138" y="22" width="22" height="12" fill="#38BDF8"/>
+    <rect x="160" y="22" width="16" height="12" rx="6" fill="#A78BFA"/>
+    <text x="0" y="62" class="s">JS / HTML / Java / Python</text>
+  </g>
+
+  <g transform="translate(42 186)">
+    <text x="0" y="-14" class="k">ACTIVITY TRACE</text>
+    <path d="M0 80C58 29 111 110 168 63C226 15 279 84 335 54C397 20 448 73 506 56C567 38 613 82 674 42C735 2 790 95 845 62C888 36 918 44 896 39" stroke="#FACC15" stroke-width="4" stroke-linecap="round"/>
+    <path d="M0 80C58 29 111 110 168 63C226 15 279 84 335 54C397 20 448 73 506 56C567 38 613 82 674 42C735 2 790 95 845 62C888 36 918 44 896 39V118H0V80Z" fill="url(#area)"/>
+    <path d="M0 118H896" class="axis"/>
+    <path d="M0 10V118" class="axis"/>
+    <path d="M224 10V118" class="axis" opacity="0.45"/>
+    <path d="M448 10V118" class="axis" opacity="0.45"/>
+    <path d="M672 10V118" class="axis" opacity="0.45"/>
+    <path d="M896 10V118" class="axis" opacity="0.45"/>
+    <circle cx="168" cy="63" r="5" fill="#38BDF8"/>
+    <circle cx="335" cy="54" r="5" fill="#A78BFA"/>
+    <circle cx="674" cy="42" r="5" fill="#38BDF8"/>
+    <circle cx="845" cy="62" r="5" fill="#FACC15"/>
+    <text x="0" y="147" class="k">activity is a trace, not the destination</text>
+    <text x="742" y="147" class="k">SHIP / LEARN / REPEAT</text>
   </g>
 </svg>
