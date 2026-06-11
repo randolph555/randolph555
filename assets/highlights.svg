@@ -1,0 +1,48 @@
+<svg width="980" height="150" viewBox="0 0 980 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stroke" x1="0" y1="0" x2="980" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.52" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#FACC15"/>
+    </linearGradient>
+    <style>
+      .title { font-family: Inter, ui-sans-serif, system-ui; fill: #F8FAFC; font-size: 18px; font-weight: 900; }
+      .body { font-family: JetBrains Mono, SFMono-Regular, Menlo, Consolas, monospace; fill: #94A3B8; font-size: 13px; font-weight: 700; }
+      .num { font-family: Inter, ui-sans-serif, system-ui; fill: #38BDF8; font-size: 34px; font-weight: 900; }
+    </style>
+  </defs>
+  <rect x="1.5" y="1.5" width="977" height="147" rx="22" fill="#0D1117" stroke="url(#stroke)" stroke-width="3"/>
+  <g opacity="0.16" stroke="#E5E7EB">
+    <path d="M0 50H980"/>
+    <path d="M0 100H980"/>
+    <path d="M196 0V150"/>
+    <path d="M392 0V150"/>
+    <path d="M588 0V150"/>
+    <path d="M784 0V150"/>
+  </g>
+  <g transform="translate(42 35)">
+    <text class="num" x="0" y="35">01</text>
+    <text class="title" x="0" y="67">Quiet Power</text>
+    <text class="body" x="0" y="91">low noise / high leverage</text>
+  </g>
+  <g transform="translate(242 35)">
+    <text class="num" x="0" y="35">02</text>
+    <text class="title" x="0" y="67">AI Systems</text>
+    <text class="body" x="0" y="91">tools that compound</text>
+  </g>
+  <g transform="translate(438 35)">
+    <text class="num" x="0" y="35">03</text>
+    <text class="title" x="0" y="67">Automation</text>
+    <text class="body" x="0" y="91">make work disappear</text>
+  </g>
+  <g transform="translate(635 35)">
+    <text class="num" x="0" y="35">04</text>
+    <text class="title" x="0" y="67">Interfaces</text>
+    <text class="body" x="0" y="91">calm surface / deep engine</text>
+  </g>
+  <g transform="translate(835 35)">
+    <text class="num" x="0" y="35">05</text>
+    <text class="title" x="0" y="67">Shipping</text>
+    <text class="body" x="0" y="91">taste through reality</text>
+  </g>
+</svg>

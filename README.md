@@ -51,7 +51,7 @@ const randolph555 = {
 ## Highlights
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=randolph555&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
+  <img src="./assets/highlights.svg" alt="Profile highlights" width="92%" />
 </div>
 
 ## Notes To Self
