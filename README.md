@@ -54,6 +54,31 @@ const randolph555 = {
   <img src="./assets/highlights.svg" alt="Profile highlights" width="92%" />
 </div>
 
+## Featured Builds
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">sse-client</h3>
+      <p align="center">A focused client for streaming workflows and realtime integrations.</p>
+      <p align="center">
+        <a href="https://github.com/randolph555/sse-client">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=randolph555&repo=sse-client&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=facc15&text_color=e5e7eb" alt="sse-client repo card" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">cloud-frame</h3>
+      <p align="center">Cloud-oriented application structure for fast iteration and deployment.</p>
+      <p align="center">
+        <a href="https://github.com/randolph555/cloud-frame">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=randolph555&repo=cloud-frame&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=facc15&text_color=e5e7eb" alt="cloud-frame repo card" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## Notes To Self
 
 <table>
@@ -100,45 +125,30 @@ const randolph555 = {
   </tr>
 </table>
 
-## Featured Builds
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">sse-client</h3>
-      <p align="center">A focused client for streaming workflows and realtime integrations.</p>
-      <p align="center">
-        <a href="https://github.com/randolph555/sse-client">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=randolph555&repo=sse-client&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=facc15&text_color=e5e7eb" alt="sse-client repo card" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">cloud-frame</h3>
-      <p align="center">Cloud-oriented application structure for fast iteration and deployment.</p>
-      <p align="center">
-        <a href="https://github.com/randolph555/cloud-frame">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=randolph555&repo=cloud-frame&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=facc15&text_color=e5e7eb" alt="cloud-frame repo card" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
-
 ## GitHub Pulse
-
-<div align="center">
-  <img height="174" src="https://github-readme-stats.vercel.app/api?username=randolph555&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=facc15&text_color=e5e7eb&rank_icon=github" alt="GitHub stats" />
-  <img height="174" src="https://github-readme-streak-stats.herokuapp.com?user=randolph555&theme=tokyonight&hide_border=true&background=0d1117&ring=7dd3fc&fire=facc15&currStreakLabel=7dd3fc" alt="GitHub streak" />
-</div>
-
-<div align="center">
-  <img height="196" src="https://github-readme-stats.vercel.app/api/top-langs/?username=randolph555&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&text_color=e5e7eb&langs_count=8" alt="Top languages" />
-</div>
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=randolph555&theme=tokyonight" alt="Profile summary" width="92%" />
 </div>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=randolph555&theme=tokyonight" alt="Repos per language" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=randolph555&theme=tokyonight" alt="Most commit language" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=randolph555&theme=tokyonight" alt="Profile stats" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=randolph555&theme=tokyonight&utcOffset=8" alt="Productive time" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=randolph555&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=7dd3fc&line=facc15&point=a78bfa&area=true&area_color=38bdf8" alt="GitHub activity graph" width="92%" />
